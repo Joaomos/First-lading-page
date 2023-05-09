@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lading Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content white-bg">
+
+      <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">HOME</a></h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">intro</a></li>
+          <li><a href="#grid-one">top 3</a></li>
+          <li><a href="#pricing">salários</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <section class="intro main-bg section" id="home">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>O que faz um programador?</h2>
+        <p>Programadores e programadoras, conhecidos também com Devs, passam seus dias escrevendo código fonte. Uma
+          sequência de comandos que permite que o computador resolva uma tarefa, imprima algumas folhas, envie um email,
+          peça comida, calcule fretes ou cadastre novos itens em um ecommerce.Nós, programadores e programadoras, os
+          devs, somos responsáveis por usar tecnologias, bibliotecas de código e linhas de programação para solucionar
+          um problema.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/dev.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>áreas de atuação</h2>
+      <p>O programador back-end é a pessoa desenvolvedora de códigos que permite as funcionalidades e a segurança dos
+        sistemas operacionais. Esse profissional é responsável por todas as comunicações dos bastidores da operação,
+        ou seja, aquilo que o usuário não pode ver, tais como acessar o banco de dados e criar tarefas executadas no
+        servidor. </p>
+      <p>Já o programador com foco em front-end desenvolve códigos para que o usuário visualize as funcionalidades de
+        um site, aplicativo ou software (sistema).Então, botões, fotos, textos e outros aspectos visuais que você vê
+        em sites e aplicativos estão lá graças ao trabalho do programador front-end.</p>
+      <p>Já os desenvolvedores full-stack sabem tanto do back como do front-end.Tais profissionais são uma espécie de
+        coringa: eles entendem como ocorre cada parte do processo de desenvolvimento da web e podem orientar sobre
+        estratégias e práticas recomendadas.</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">top 3 trabalhos</h2>
+      <p class="grid-description">No meio tecnológico existem diversas profissões para um programador. Basta escolher
+        aquela que combina mais com o perfil do profissional e aproveitar todas as maravilhas e benefícios de fazer o
+        que se ama.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Engenheiro de software</h3>
+          <p>O engenheiro de software tem como principal função projetar e desenvolver sistemas, aplicativos e
+            programas. É esse o profissional responsável por desenhar e testar os novos programas. Além disso, também
+            é o responsável pela manutenção e revisão periódica sobre o sistema.</p>
+        </article>
+        <article>
+          <h3>Analista de sistemas</h3>
+          <p>O analista de sistemas resolve problemas das redes, podendo tanto ser relacionados aos sistemas
+            computacionais de hardware como de software. Vale ressaltar que o analista de sistemas atende outras
+            funções que são divididas em produção de software, negócios e infraestrutura de TI.</p>
+        </article>
+        <article>
+          <h3>Arquiteto de redes de informática</h3>
+          <p>Estes profissionais são responsáveis por criar e manter a variedade de redes de comunicação. Desde
+            intranets até organizacionais, como infraestruturas expansivas na cloud, são eles que arquitetam toda a
+            estrutura.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Salários</h2>
+      <p>Desenvolvedor de Software é uma das profissões mais valorizadas na área de tecnologia com renda de R$7.492,00.
+      </p>
+      <p>Segundo o Glassdoor, a mediana salarial de Desenvolvedor de Software junior é de R$5.067,50, e para
+        profissionais seniores, a mediana salarial é de R$12.069,00.</p>
+
+      <div class="responsive-table">
+        <table>
+
+          <caption>
+            <h2>Média Salárial</h2>
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Desenvolvedor de Software</th>
+              <th>Brasil</th>
+              <th>EUA</th>
+              <th>Alemanha</th>
+              <th>Canadá</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="first-column">Júnior</td>
+              <td>R$ 3.314</td>
+              <td>U$ 5.200</td>
+              <td>€ 3.900</td>
+              <td>CAD 4.300</td>
+            </tr>
+            <tr>
+              <td class="first-column">Pleno</td>
+              <td>R$6.562</td>
+              <td>U$ 9.000</td>
+              <td>€ 5.000</td>
+              <td>CAD 7.000</td>
+            </tr>
+            <tr>
+              <td class="first-column">Sênior</td>
+              <td>R$10.400</td>
+              <td>U$ 10.900</td>
+              <td>€ 6.000</td>
+              <td>CAD 9.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content top3-content contact">
+      <div>
+        <h2>Tem interesse em se tornar um programador?</h2>
+        <p>Envie para a nossa equipe qual é a sua motivação para se tornar um programador. Não se esqueça de colocar os
+          seus
+          objetivos pessoais e profissionais, além da área de atuação que você deseja se especializar (Front End, Back
+          End ou Full Stack). Nos conte também porque surgiu o interesse por essa área e como você conheceu a
+          programação. Compartilhar sua experiência com outros programadores pode te ajudar a aprimorar suas
+          habilidades, além de te proporcionar conhecer e aprender diferentes linguagens de programação.</p>
+      </div>
+
+
+
+
+      <div class="contact-form">
+        <fieldset class="form-grid">
+
+          <div class="form-group">
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Ex: João">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Último nome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Ex: Silva">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Ex: joaosilva@email.com">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar Mensagem</button>
+          </div>
+        </fieldset>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/ojoaomarcosilva/">Feito com <span
+          class="heart">❤</span> por João Marcos</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
